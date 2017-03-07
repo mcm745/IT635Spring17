@@ -60,3 +60,19 @@
    60  pwd
    61  ls -latr
    62  history > history.txt
+   63  ls -latr
+   64  git add history.txt
+   65  git status
+   66  git commit -m "first commit, nothing important here"
+   67  git config --global user.email "mcm37@njit.edu"
+   68  git config --global user.name "mcm745"
+   69  sudo apt-get install gitk
+   70  gitk
+   71  export DISPLAY=0.0
+   72  gitk
+   73  git log
+   74  git remote add origin https://github.com/mcm745/IT635Spring17.git
+   75  git push -u origin master
+   76  hitory
+   77  history
+   78  history > history.txt
