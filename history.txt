@@ -1,0 +1,62 @@
+    1  export DISPLAY=192.168.1.2:0
+    2  export DISPLAY=10.0
+    3  set -o vi
+    4  sudo synaptic
+    5  export DISPLAY=:0.0
+    6  sudo synaptic
+    7  export DISPLAY=192.168.1.2:0.0
+    8  sudo synaptic
+    9  export DISPLAY=192.168.1.1:0.0
+   10  sudo synaptic
+   11  export DISPLAY=192.168.1.1:10.0
+   12  sudo synaptic
+   13  ps -aef | grep package
+   14  sudo synaptic
+   15  xterm
+   16  sudo exterm
+   17  sudo xterm
+   18  sudo apt install xterm
+   19  xterm
+   20  dk -k .
+   21  df -k .
+   22  mysql -u root -p 1234
+   23  mysql -u root -p 
+   24  exit
+   25  pwd
+   26  ls -latr
+   27  id
+   28  uname -a
+   29  sudo apt-get update
+   30  sudo apt-get synaptic
+   31  sudo apt-get install synaptic
+   32  sudo synaptic
+   33  (synaptic:15542): Gtk-WARNING **: cannot open display:
+   34  xhost +localhost
+   35  export DISPLAY=:10.0
+   36  set -o vi
+   37  export DISPLAY=192.168.1.2:0.0
+   38  sudo synaptic
+   39  export DISPLAY=192.168.1.2:0
+   40  sudo synaptic
+   41  sudo apt-get install mysql-server
+   42  id
+   43  clear
+   44  cd it635
+   45  git init
+   46  git status
+   47  mysqldump -u root -p > backup.sql
+   48  set -o vik
+   49  set -o vi
+   50  mysqldump -u root -p Classes > backup.sql
+   51  cat backup.sql | more
+   52  git add backup.sql
+   53  git status
+   54  git rm --cached backup.sql
+   55  git add backp.sql
+   56  pwd
+   57  ls -latr
+   58  git add backup.lsql
+   59  git add backup.sql
+   60  pwd
+   61  ls -latr
+   62  history > history.txt
