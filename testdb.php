@@ -4,7 +4,7 @@
 require_once("studentdb.inc");
 
 # argv[0] - name of the script being executed
-echo "executing script: ".$argv[].PHP_EOL;
+echo "executing script: ".$argv[0].PHP_EOL;
 
 #echo "successfully connected\n";
 #echo "successfully connected".PHP_EOL;
