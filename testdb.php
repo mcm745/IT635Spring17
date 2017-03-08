@@ -1,21 +1,18 @@
 #!/usr/bin/php
 <?php
-$db = new mysqli("localhost", "root", "1234", "Classes");
 
-if ($db->connect_errno != 0)
-{
- echo "error connecting to database: ".$db->connect_error.PHP_EOL;
- exit();
-}
+require_once("studentdb.inc");
+
+# argv[0] - name of the script being executed
+echo "executing script: ".$argv[].PHP_EOL;
 
 #echo "successfully connected\n";
-echo "successfully connected".PHP_EOL;
+#echo "successfully connected".PHP_EOL;
 
-$query = "select * from class;";
+$studentDB = new StudentAccess("Classes");
 
-$db->query($query);
-
-$db->close();
-
-echo "program complete\n";
+$students = $studentDB->getStudentRecords();
+echo "student records in db are:".PHP_EOL;
+print_r($students);
+echo $argv[0]." complete".PHP_EOL;
 ?>
